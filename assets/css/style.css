@@ -51,3 +51,35 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
+
+.footer {
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
