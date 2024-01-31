@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumindo API com JavaScript</title>
+</head>
+<body>
+
+    <h1>Dados da API Oracle APEX</h1>
+
+    <ul id="employeeList">
+        <!-- Aqui os dados serão inseridos dinamicamente pelo JavaScript -->
+    </ul>
+
+    <script>
+        // URL da API
+        const apiUrl = 'https://apex.oracle.com/pls/apex/redemare/hr/empinfo/';
+
+        // Fazendo uma solicitação GET usando Fetch
+        fetch(apiUrl)
+          .then(response => {
+            if (!response.ok) {
+              throw new Error('Erro ao recuperar os dados da API');
+            }
+            return response.json();
+          })
+          .then(data => {
+            // Verificar a estrutura dos dados
+            console.log(data);
+
+            // Acessar a matriz de funcionários
+            const employees = data.items;
+
+            // Manipular os dados recebidos e inserir na lista
+            const employeeList = document.getElementById('employeeList');
+
+            employees.forEach(employee => {
+                const listItem = document.createElement('li');
+                listItem.textContent = `ID: ${employee.empno}, Nome: ${employee.ename}, Salário: ${employee.sal}`;
+                employeeList.appendChild(listItem);
+            });
+          })
+          .catch(error => {
+            console.error('Erro durante a solicitação:', error);
+          });
+    </script>
+
+</body>
+</html>
