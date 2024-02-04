@@ -23,8 +23,32 @@
 
 <body>
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
+    <!-- Navbar1 -->
+    <nav id="nav1" class="navbar navbar-expand-lg navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="">Link1</i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link3</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link4</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Navbar2 -->
+    <nav id="nav2" class="navbar navbar-expand-lg navbar-dark">
         <a href="#" class="navbar-brand">
             <img src="assets/img/logo.png" width="142">
         </a>
@@ -50,26 +74,67 @@
         </div>
     </nav>
 
-    <div class="email-container">
-        <!-- Header -->
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/img/boasVindas1.jpg" alt="Imagem 1" class="img-thumbnail">
+          </div>
+          <div class="col-md-6">
+            <div class="header">
+                <h1>Bem-vindos à Rede MaRe</h1>
+            </div>
+    
+           
+            <div class="content">
+                <p id="conteudo-principal">
+    
+                </p>
+            
+                <script src="assets/js/principal.js"></script>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0">
+          <div class="card">
+            <div class="card-body">
+                <img src="assets/img/mapa1.jpg" alt="Mapa 1" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+                <img src="assets/img/mapa2.jpg" alt="Mapa 2" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    <!-- <div class="email-container">
+       
         <div class="header">
             <h1>Bem-vindos à Rede MaRe</h1>
         </div>
 
-        <!-- Content -->
+       
         <div class="content">
             <p id="conteudo-principal">
-                <!-- Aqui os dados serão inseridos dinamicamente pelo JavaScript -->
+
             </p>
         
             <script src="assets/js/principal.js"></script>
         </div>
 
-        <!-- Map Images -->
+        
         <img src="assets/img/mapa1.jpg" alt="Mapa 1" class="map-img">
         <img src="assets/img/mapa2.jpg" alt="Mapa 2" class="map-img">
 
-    </div>
+    </div> -->
 
     <!-- Seção sobre Mangue -->
     <div class="biome-section">
@@ -145,6 +210,7 @@
         </div>
     </div>
     </div>
+
     <!-- Footer -->
     <div class="container footer">
         <div class="row">

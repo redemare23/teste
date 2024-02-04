@@ -28,3 +28,5 @@ fetch(apiUrl)
   .catch(error => {
     console.error('Erro durante a solicitação:', error);
   });
+
+  
