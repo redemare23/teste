@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const tituloMapa = document.getElementById('titulo-mapa');
     const conteudoMapa = document.getElementById('conteudo-mapa');
 
+    titulo.innerHTML = items[0].titulo;
+    conteudoPrincipal.innerHTML = items[0].conteudo;
     tituloMapa.innerHTML = items[2].titulo;
     conteudoMapa.innerHTML = items[2].conteudo;
   }
