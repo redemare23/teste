@@ -128,7 +128,7 @@
     border: none;
 }
 
-#pa4   {
+#pa4 {
     background-color: #BEE4FE;
     color: #495057;
     font-weight: bold;
@@ -137,7 +137,7 @@
     border: none;
 }
 
-#pa5   {
+#pa5 {
     background-color: #F5B5B7;
     color: #495057;
     font-weight: bold;
@@ -146,7 +146,7 @@
     border: none;
 }
 
-#pa6   {
+#pa6 {
     background-color: #F2EEC6;
     color: #495057;
     font-weight: bold;
@@ -154,6 +154,7 @@
     width: 100%;
     border: none;
 }
+
 .accordion-button:hover {
     background-color: #e9ecef;
 }

@@ -8,6 +8,7 @@
 #nav2 {
     background: linear-gradient(to right, #47916c, #2c3e50);
 }
+
 /* Adicione isso ao seu arquivo CSS */
 .navbar-nav li:hover .dropdown-menu {
     display: block;
@@ -17,7 +18,14 @@
     display: none;
     position: absolute;
     background-color: #dffcee;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Adicione sombra conforme necessário */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    /* Adicione sombra conforme necessário */
+}
+
+/* Conteúdo */
+
+.container {
+    text-align: justify;
 }
 
 /* Footer */
