@@ -57,6 +57,72 @@
     opacity: 1;
 }
 
+
+/* Estilos personalizados para os Accordions */
+.accordion-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.pa123 {
+    background-color: #D5FDDB;
+    color: #495057;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+
+#pa4 {
+    background-color: #BEE4FE;
+    color: #495057;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+
+#pa5 {
+    background-color: #F5B5B7;
+    color: #495057;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+
+#pa6 {
+    background-color: #F2EEC6;
+    color: #495057;
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    border: none;
+}
+
+.accordion-button:hover {
+    background-color: #e9ecef;
+}
+
+.accordion-collapse {
+    transition: max-height 0.5s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.accordion-item.active .accordion-collapse {
+    max-height: 1000px;
+}
+
+.accordion-body {
+    padding: 15px;
+    color: #495057;
+}
+
 /* Footer */
 .footer {
     background-color: #dffcee;

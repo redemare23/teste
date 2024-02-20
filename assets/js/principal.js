@@ -43,5 +43,11 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     updateElement('Restiga-titulo', items[4]?.titulo || '');
     updateElement('Restiga-conteudo', items[4]?.conteudo || '');
+
+    updateElement('pa1-titulo', items[5]?.titulo || '');
+    updateElement('pa1-conteudo', items[5]?.conteudo || '');
+
+    updateElement('pa2-titulo', items[6]?.titulo || '');
+    updateElement('pa2-conteudo', items[6]?.conteudo || '');
   }
 });
