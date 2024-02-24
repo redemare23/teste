@@ -76,7 +76,7 @@
     border: none;
 }
 
-#pa4 {
+.pa4 {
     background-color: #BEE4FE;
     color: #495057;
     font-weight: bold;
@@ -85,7 +85,7 @@
     border: none;
 }
 
-#pa5 {
+.pa5 {
     background-color: #F5B5B7;
     color: #495057;
     font-weight: bold;
@@ -94,7 +94,7 @@
     border: none;
 }
 
-#pa6 {
+.pa6 {
     background-color: #F2EEC6;
     color: #495057;
     font-weight: bold;
@@ -108,14 +108,16 @@
 }
 
 .accordion-collapse {
-    transition: max-height 0.5s ease-in-out;
+    transition: max-height 0.5s ease-in-out, height 0.5s ease-in-out;
     max-height: 0;
+    height: 0;
     overflow: hidden;
     background-color: #fff;
 }
 
 .accordion-item.active .accordion-collapse {
     max-height: 1000px;
+    height: auto;
 }
 
 .accordion-body {

@@ -49,5 +49,17 @@ document.addEventListener("DOMContentLoaded", async function () {
 
     updateElement('pa2-titulo', items[6]?.titulo || '');
     updateElement('pa2-conteudo', items[6]?.conteudo || '');
+
+    updateElement('pa3-titulo', items[7]?.titulo || '');
+    updateElement('pa3-conteudo', items[7]?.conteudo || '');
+
+    updateElement('pa4-titulo', items[8]?.titulo || '');
+    updateElement('pa4-conteudo', items[8]?.conteudo || '');
+
+    updateElement('pa5-titulo', items[9]?.titulo || '');
+    updateElement('pa5-conteudo', items[9]?.conteudo || '');
+
+    updateElement('pa6-titulo', items[10]?.titulo || '');
+    updateElement('pa6-conteudo', items[10]?.conteudo || '');
   }
 });
